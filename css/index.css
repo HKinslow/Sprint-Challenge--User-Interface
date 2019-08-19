@@ -95,12 +95,6 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -136,11 +130,167 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 25px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+.jumbo {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: black;
+}
+
+.working {
+    height: 200px;
+    width: 360px;
+    padding-top: 15px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;    
+}
+
+.foster {
+    width: 50%;
+}
+
+.strategy {
+    width: 50%;
+}
+
+.strategy hr {
+    width: 360px;
+    float: left;
+}
+
+.work {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.about {
+    margin: 15px;
+}
+
+.box1 {
+    background-color: teal;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box2 {
+    background-color: gold;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box3 {
+    background-color: cadetblue;
+    margin: 20px;
+    height: 90px;
+    color: white;
+
+}
+
+.box4 {
+    background-color: coral;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box5 {
+    background-color: crimson;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box6 {
+    background-color: forestgreen;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box7 {
+    background-color: darkorchid;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box8 {
+    background-color: hotpink;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box9 {
+    background-color: indigo;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    margin: 20px;
+    height: 90px;
+    color: white;
+}
+
+.boxes {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-row-gap: 15px;
+}
+
+.boxes div {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.boxes div div {
+    width: 120px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
